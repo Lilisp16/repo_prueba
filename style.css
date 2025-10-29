@@ -1,3 +1,7 @@
-*{
-    color: aliceblue;
+Aplica a todos los elementos del HTML */
+* {
+  margin: 0;       /* elimina los márgenes predeterminados */
+  padding: 0;      /* elimina los paddings predeterminados */
+  box-sizing: border-box;  /* facilita controlar tamaños  hace que el ancho y alto incluyan padding y borde, más fácil de controlar.*/
+  font-family: Arial, sans-serif; /* cambia la tipografía de todo  define la tipografía para todos los elementos*/
 }
